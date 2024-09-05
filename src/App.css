@@ -1,0 +1,65 @@
+*{
+  /* css reset */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  /* variables */
+
+  /* colors */
+  --BG-COLOR-ONE: #6e3a1e;
+  --BG-COLOR-TWO: #1E0D08;
+  --BG-COLOR-THREE: #5B260B;
+  --BG-COLOR-FOUR: #FEC22F;
+  --BG-COLOR-FIVE: #B46D32;
+  --BG-COLOR-SIX: #f4debe;
+  --BG-COLOR-SEVEN: #FB5731;
+  --BG-COLOR-EIGHT: #3a2313;
+  --BG-COLOR-NINE: #5C381E;
+  --BG-COLOR-TEN: #2f150d;
+  --BG-COLOR-ELEVEN: #f4debeb6;
+  --BG-COLOR-TWELVE: #1e0d084d;
+  --BG-COLOR-THIRTEEN: #f4debe6e;
+
+  --FONT-COLOR-ONE: #f4debe;
+  --FONT-COLOR-TWO: #1e0d0875;
+
+  /* borders */
+  --BORDER-ONE: solid 1px var(--BG-COLOR-SIX);
+  --BORDER-TWO: 
+  0 0 0 1px var(--BG-COLOR-SIX),
+  0 0 0 3px var(--BG-COLOR-TWO);
+  --BORDER-THREE: 
+  0 0 0 .5px var(--BG-COLOR-TWO),
+  0 0 0 1px var(--BG-COLOR-SIX);
+  --BORDER-FOUR: solid 1px var(--BG-COLOR-ONE);
+  --BORDER-FIVE: solid 2px var(--BG-COLOR-TWO);
+  --BORDER-SIX: 
+  0 0 0 1px var(--BG-COLOR-SIX),
+  0 0 0 5px var(--BG-COLOR-TWO),
+  0 0 0 6px var(--BG-COLOR-SIX);
+  --BORDER-SEVEN: solid 1px var(--BG-COLOR-TWO);
+  --BORDER-EIGHT: solid 2px var(--BG-COLOR-TWO);
+  --BORDER-NINE: solid 2px var(--BG-COLOR-SIX);
+  --BORDER-TEN: 
+  0 0 0 1px var(--BG-COLOR-TWO),
+  0 0 0 3px var(--BG-COLOR-TWO);
+  --BORDER-ELEVEN: 
+  0 0 0 .5px var(--BG-COLOR-SIX),
+  0 0 0 1px var(--BG-COLOR-SIX);
+  --BORDER-TWELVE: 
+  0 0 0 5px var(--BG-COLOR-TWO),
+  0 0 0 6px var(--BG-COLOR-SIX);
+
+  /* fonts */
+  --FONT-ONE: "Amatic SC", sans-serif; 
+  --FONT-TWO: "LXGW WenKai Mono TC", monospace; 
+  --FONT-THREE: "Pangolin", cursive;
+  --FONT-FOUR: "EB Garamond", serif;
+  
+}
+
+body{
+  background-color: var(--BG-COLOR-TWO);
+  
+}

@@ -1,0 +1,41 @@
+.footer-main{
+    color: var(--BG-COLOR-SIX);
+    background-color: var(--BG-COLOR-TWO);
+    border-top: var(--BORDER-NINE);
+    font-family: var(--FONT-FOUR);
+    font-weight: bold;
+}
+
+.email-btn,
+.dev-link{
+    position: relative;
+}
+
+.email-btn::before,
+.dev-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: .25s linear all;
+}
+
+.email-btn::after,
+.dev-link::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: var(--BORDER-ONE);
+    transition: .25s linear all;
+}
+
+.email-btn:hover:before,
+.dev-link:hover:before,
+.email-btn:hover:after,
+.dev-link:hover:after{
+    width: 50%;
+}
