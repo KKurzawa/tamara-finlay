@@ -5,6 +5,7 @@
 }
 .mobile-nav{
     background-color: var(--BG-COLOR-TWO);
+    border-bottom: solid 2px var(--BG-COLOR-SIX);
 }
 
 .mobile-nav-link{
