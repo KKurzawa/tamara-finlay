@@ -1,0 +1,8 @@
+.hamburger-react{
+    position: relative;
+    /* top: -3rem; */
+    right: 1rem
+}
+.mobile-nav{
+    background-color: var(--BG-COLOR-TWO);
+}

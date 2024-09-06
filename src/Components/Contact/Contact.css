@@ -42,7 +42,7 @@
     height: 100%;
     background-size: cover;
     background-repeat: repeat-y;
-    opacity: .25;
+    opacity: .15;
 }
 
 .contact-form{
@@ -59,7 +59,7 @@
     border-radius: .5rem;
     padding-left: .5rem;
     padding-right: .5rem;
-    background-color: var(--BG-COLOR-TEN);
+    background-color: var(--BG-COLOR-TWO);
     font-size: 1.25rem;
     color: var(--BG-COLOR-SIX);
 }
@@ -70,9 +70,9 @@
 
 .submit-btn{
     border-radius: 5px;
-    background-color: var(--BG-COLOR-TEN);
+    background-color: var(--BG-COLOR-TWO);
     color: var(--BG-COLOR-SIX);
-    box-shadow: var(--BORDER-THREE);
+    box-shadow: var(--BORDER-THIRTEEN);
     transition: all .25s linear;
 }
 
@@ -80,7 +80,7 @@
     border-radius: 5px;
     background-color: var(--BG-COLOR-SIX);
     color: var(--BG-COLOR-TEN);
-    box-shadow: var(--BORDER-ELEVEN);
+    box-shadow: var(--BORDER-THREE);
 }
 
 .top-btn-container{

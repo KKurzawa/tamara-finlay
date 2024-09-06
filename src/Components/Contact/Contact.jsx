@@ -48,8 +48,8 @@ const Contact = () => {
             <article id='Contact' className='contact-header-container flex justify-center w-full'>
                 <h2 className='contact-header justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>Contact</h2>
             </article>
-            <main className='contact-main flex flex-col items-center w-ful h-auto'>
-                <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center relative w-[90%] md:w-[85%] lg:w-[50%] h-auto gap-1 my-5 rounded-2xl'>
+            <main className='contact-main flex flex-col items-center w-full h-auto'>
+                <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center relative w-[90%] md:w-[70%] lg:w-[50%] h-auto gap-1 my-5 rounded-2xl'>
                     <article className='form-container flex flex-col items-center gap-1 w-[90%] h-[90%] pb-5 pt-5'>
                         <input
                             className='form-input w-full'

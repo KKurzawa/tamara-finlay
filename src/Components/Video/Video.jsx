@@ -27,7 +27,7 @@ const Video = () => {
                 <h2 className='video-header justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>Animations</h2>
             </article>
             <div className='animations-main-container relative'>
-                <article className='animations-main flex flex-col items-center py-5 h-[19rem] md:h-[24rem]'>
+                <article className='animations-main flex flex-col items-center py-5 h-[19rem] md:h-[24.5rem]'>
                     <main className='video-main relative px-10 md:px-[4.5rem] rounded-2xl w-[90%] h-[14rem] md:w-[80%] md:h-[20rem] lg:w-[65%] max-w-7xl'>
                         <article className='outer-video-container w-full h-full relative rounded-2xl'>
                             <section
@@ -58,7 +58,7 @@ const Video = () => {
                                 <ArrowBigRight />
                             </button>
                             <article
-                                className='img-slider-dot-btn-container flex justify-center gap-3 pt-3'>
+                                className='img-slider-dot-btn-container flex justify-center gap-3 pt-2'>
                                 {videoInfo.map((_, index) => (
                                     <button
                                         onClick={() => setImageIndex(index)}
