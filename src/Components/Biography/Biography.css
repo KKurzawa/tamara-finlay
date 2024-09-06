@@ -25,16 +25,30 @@
     border: var(--BORDER-NINE);
     outline: var(--BORDER-EIGHT);
     top: 50%;
+    z-index: 0;
 }
 
 /* medium */
 .medium-main-bio{
-    background-color: var(--BG-COLOR-TWO);
+    /* background-color: var(--BG-COLOR-TWO); */
     color: var(--BG-COLOR-SIX);
     border-top: var(--BORDER-NINE);
     border-bottom: var(--BORDER-NINE);
     /* box-shadow: var(--BORDER-TWO); */
     /* border-radius: 1.5rem; */
+}
+
+.medium-main-bio::before{
+    position: absolute;
+    content: '';
+    background: url('/Tapestry2.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: .15;
+    z-index: 0;
+    left: 0;
+    top:0
 }
 
 .medium-profile-pic-container{
@@ -110,6 +124,21 @@
 .medium-bio{
     line-height: normal;
 } */
+
+.medium-bio-icon{
+    font-size: 3.5rem;
+    margin: .75rem;
+    background-color: transparent;
+    padding: .25rem;
+    color: var(--BG-COLOR-SIX);
+    border-radius: 15%;
+    transition: all .25s linear;
+}
+
+.medium-bio-icon:hover{
+    background-color: var(--BG-COLOR-SIX); 
+    color: var(--BG-COLOR-TWO);
+}
 /* large */
 .main-bio{
     position: relative;
