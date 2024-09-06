@@ -6,3 +6,18 @@
 .mobile-nav{
     background-color: var(--BG-COLOR-TWO);
 }
+
+.mobile-nav-link{
+    border: solid 1px var(--BG-COLOR-TWO);
+    outline: solid 1px var(--BG-COLOR-SIX);
+    background-color: var(--BG-COLOR-SIX);
+    color: var(--BG-COLOR-TWO);
+    transition: all .25s linear;
+}
+
+.mobile-nav-link:hover{
+    border: solid 1px var(--BG-COLOR-SIX);
+    outline: solid 1px var(--BG-COLOR-SIX);
+    background-color: var(--BG-COLOR-TWO);
+    color: var(--BG-COLOR-SIX);
+}

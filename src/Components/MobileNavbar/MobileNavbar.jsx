@@ -29,10 +29,10 @@ const MobileNavbar = () => {
             setIsOpen(false)
             const element = document.getElementById('Contact')
             element?.scrollIntoView({ behavior: 'smooth' })
-        })
+        }, 500)
     }
     return (
-        <main className='mobile-nav-main'>
+        <main className='mobile-nav-main md:hidden'>
             <Hamburger
                 toggled={isOpen}
                 toggle={setIsOpen}
@@ -54,19 +54,19 @@ const MobileNavbar = () => {
                             animate={{ left: '6%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
                             transition={{ duration: .2, delay: .5 }}
-                            className='mobile-nav-link w-fit rounded-xl relative'><button className='w-fit' onClick={navigateToBiography}>Biography</button></motion.li>
+                            className='mobile-nav-link w-[88%] py-1 pl-3 rounded-xl relative'><button className='w-fit' onClick={navigateToBiography}>Biography</button></motion.li>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '6%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
                             transition={{ duration: .2, delay: .7 }}
-                            className='mobile-nav-link w-fit rounded-xl relative'><button className='w-fit' onClick={navigateToAnimations}>Animations</button></motion.li>
+                            className='mobile-nav-link w-[88%] py-1 pl-3 rounded-xl relative'><button className='w-fit' onClick={navigateToAnimations}>Animations</button></motion.li>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '6%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
                             transition={{ duration: .2, delay: .9 }}
-                            className='mobile-nav-link w-fit rounded-xl relative'><button className='w-fit' onClick={navigateToContact}>Contact</button></motion.li>
+                            className='mobile-nav-link w-[88%] py-1 pl-3 rounded-xl relative'><button className='w-fit' onClick={navigateToContact}>Contact</button></motion.li>
                     </ul>
 
 
