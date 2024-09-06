@@ -59,7 +59,7 @@ const MobileNavbar = () => {
                             initial={{ left: '100%', opacity: 0 }}
                             animate={{ left: '6%', opacity: 1 }}
                             exit={{ left: '100%', opacity: 0 }}
-                            transition={{ duration: .2, delay: .5 }}
+                            transition={{ duration: .2, delay: .7 }}
                             className='mobile-nav-link w-fit rounded-xl relative'><button className='w-fit' onClick={navigateToAnimations}>Animations</button></motion.li>
                         <motion.li
                             initial={{ left: '100%', opacity: 0 }}
