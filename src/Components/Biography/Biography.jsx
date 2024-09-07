@@ -7,10 +7,10 @@ import Tamara from '/Tamara2.jpg'
 const Biography = () => {
     return (
         <>
-            {/* medium */}
-            <article className='bio-header-container flex justify-center w-full'>
+            <article id='Biography' className='bio-header-container flex justify-center w-full'>
                 <h2 className='bio-header justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>Biography</h2>
             </article>
+            {/* medium */}
             <main id='Biography' className='medium-main-bio lg:hidden relative z-10 pt-6 md:pr-8 md:pl-8 lg:mb-10 px-4'>
                 <article className='medium-pic-container relative z-10 w-full'>
                     <section className='medium-profile-pic-container flex justify-center relative float-left w-[10rem] md:w-[15rem] h-[10rem] md:h-[15rem] mb-2 md:mb-0'>
@@ -40,7 +40,7 @@ const Biography = () => {
                 </article>
             </main >
             {/* large */}
-            <main className='main-bio hidden lg:grid grid-cols-3 justify-center items-center justify-items-center gap-8 pt-5 pr-10 pl-10 pb-10'>
+            <main className='main-bio hidden lg:grid grid-cols-3 justify-center items-center justify-items-center gap-8 pt-10 pr-10 pl-10 pb-10'>
                 <article className='image-container flex col-span-1'>
                     <img className='profile-pic p-5' src={Tamara} />
                 </article>

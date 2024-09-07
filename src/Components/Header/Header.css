@@ -8,8 +8,16 @@
     font-weight: bold;
     border-bottom: var(--BORDER-NINE);
     position: relative;
-    z-index: 1;
-   
+    z-index: 1; 
+}
+
+.lg-title-subtitle{
+    color: var(--BG-COLOR-TWO);
+} 
+
+.name,
+.sub-name{
+    text-shadow: 2px 2px 3px var(--BG-COLOR-ONE);
 }
 
 .header-pic{
