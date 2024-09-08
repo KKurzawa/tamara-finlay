@@ -1,6 +1,7 @@
 .header-main{
     border-bottom: var(--BORDER-NINE);
 }
+
 .header-container{
     color: var(--BG-COLOR-SIX);
     background-color: var(--BG-COLOR-TWO);

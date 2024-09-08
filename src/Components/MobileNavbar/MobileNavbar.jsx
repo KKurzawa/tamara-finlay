@@ -54,22 +54,20 @@ const MobileNavbar = () => {
                             animate={{ left: '6%' }}
                             exit={{ left: '110%' }}
                             transition={{ duration: .2, delay: .5 }}
-                            className='mobile-nav-link flex justify-start w-[88%] py-1 pl-3 rounded-xl relative'><button className='flex w-full' onClick={navigateToBiography}>Biography</button></motion.li>
+                            className='mobile-nav-link flex justify-start relative w-[88%] py-1 pl-3 rounded-xl'><button className='flex w-full' onClick={navigateToBiography}>Biography</button></motion.li>
                         <motion.li
                             initial={{ left: '110%' }}
                             animate={{ left: '6%' }}
                             exit={{ left: '110%' }}
                             transition={{ duration: .2, delay: .7 }}
-                            className='mobile-nav-link flex justify-start w-[88%] py-1 pl-3 rounded-xl relative'><button className='w-full flex' onClick={navigateToAnimations}>Animations</button></motion.li>
+                            className='mobile-nav-link flex justify-start relative w-[88%] py-1 pl-3 rounded-xl'><button className='w-full flex' onClick={navigateToAnimations}>Animations</button></motion.li>
                         <motion.li
                             initial={{ left: '110%' }}
                             animate={{ left: '6%' }}
                             exit={{ left: '110%' }}
                             transition={{ duration: .2, delay: .9 }}
-                            className='mobile-nav-link flex justify-start w-[88%] py-1 pl-3 rounded-xl relative'><button className='w-full flex' onClick={navigateToContact}>Contact</button></motion.li>
+                            className='mobile-nav-link flex justify-start relative w-[88%] py-1 pl-3 rounded-xl'><button className='w-full flex' onClick={navigateToContact}>Contact</button></motion.li>
                     </ul>
-
-
                 </motion.nav>
             }
         </main>
