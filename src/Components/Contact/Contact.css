@@ -29,7 +29,6 @@
 
 .contact-main{
     position: relative;
-    /* background-color: var(--BG-COLOR-TWO); */
     border-top: var(--BORDER-NINE);
     border-bottom: var(--BORDER-NINE);
 }
@@ -49,10 +48,6 @@
     background-color: var(--BG-COLOR-SIX);
     box-shadow: var(--BORDER-TWO);
 }
-
-/* .header-container{
-    background-color: var(--BG-COLOR-SIX);
-} */
 
 .form-input{
     outline: none;

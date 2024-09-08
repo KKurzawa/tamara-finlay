@@ -60,6 +60,8 @@
   --FONT-THREE: "Pangolin", cursive;
   --FONT-FOUR: "EB Garamond", serif;
   
+  /* text shadows */
+  --TEXT-SHADOW-ONE: 3px 3px 5px black;
 }
 
 body{

@@ -46,7 +46,7 @@ const Contact = () => {
     return (
         <>
             <article id='Contact' className='contact-header-container flex justify-center w-full'>
-                <h2 className='contact-header justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>Contact</h2>
+                <h2 className='contact-header justify-items-center p-2 my-2 lg:my-4 text-2xl lg:text-3xl'>Contact</h2>
             </article>
             <main className='contact-main flex flex-col items-center w-full h-auto'>
                 <form onSubmit={handleSubmit} className='contact-form col-start-1 flex flex-col items-center relative w-[90%] md:w-[70%] lg:w-[50%] h-auto gap-1 my-5 rounded-2xl'>
@@ -88,7 +88,7 @@ const Contact = () => {
                 <button onClick={() => setTimeout(() => {
                     const topButton = document.getElementById('Top');
                     topButton.scrollIntoView({ behavior: 'smooth' })
-                }, 500)} className='top-btn justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>To The Top</button>
+                }, 500)} className='top-btn justify-items-center p-2 my-2 lg:my-4 text-2xl lg:text-3xl'>To The Top</button>
             </article>
         </>
     )
