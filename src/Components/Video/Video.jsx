@@ -24,11 +24,11 @@ const Video = () => {
     return (
         <>
             <article id="Animations" className='video-header-container flex justify-center w-full'>
-                <h2 className='video-header justify-items-center p-2 text-2xl lg:text-3xl my-2 lg:my-4'>Animations</h2>
+                <h2 className='video-header justify-items-center p-2 my-2 lg:my-4 text-2xl lg:text-3xl '>Animations</h2>
             </article>
             <div className='animations-main-container relative'>
                 <article className='animations-main flex flex-col items-center py-5 h-[19rem] md:h-[24.5rem]'>
-                    <main className='video-main relative px-10 md:px-[4.5rem] rounded-2xl w-[90%] h-[14rem] md:w-[80%] md:h-[20rem] lg:w-[45%] max-w-7xl'>
+                    <main className='video-main relative px-10 md:px-[4.5rem] w-[90%] h-[14rem] md:w-[80%] md:h-[20rem] lg:w-[45%] max-w-7xl rounded-2xl'>
                         <article className='outer-video-container w-full h-full relative rounded-2xl'>
                             <section
                                 className='inner-video-container flex relative w-full h-full overflow-hidden rounded-2xl' >
@@ -48,12 +48,12 @@ const Video = () => {
                                 ))}
                             </section>
                             <button
-                                className='img-slider-btn md:ml-1 left-[-2rem] top-24 md:left-[-4.25rem] absolute rounded-full'
+                                className='img-slider-btn absolute top-24 md:top-32 left-[-2rem] md:left-[-4.25rem] md:ml-1 rounded-full'
                                 onClick={showPrevImage}>
                                 <ArrowBigLeft />
                             </button>
                             <button
-                                className='img-slider-btn md:mr-1 right-[-2rem] top-24 md:right-[-4.25rem] absolute rounded-full'
+                                className='img-slider-btn absolute top-24 md:top-32 right-[-2rem] md:right-[-4.25rem] md:mr-1 rounded-full'
                                 onClick={showNextImage}>
                                 <ArrowBigRight />
                             </button>

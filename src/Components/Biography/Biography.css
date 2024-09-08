@@ -88,6 +88,11 @@
     color: var(--BG-COLOR-TWO);
 }
 /* large */
+.main-bio{
+    border-top: var(--BORDER-NINE);
+    border-bottom: var(--BORDER-NINE);
+}
+
 .main-bio::before{
     position: absolute;
     content: '';

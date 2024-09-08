@@ -3,36 +3,3 @@
     z-index: 1;
     font-family: var(--FONT-FOUR);
 }
-
-/* .body-container::before{
-    position: absolute;
-    content: '';
-    background-image: url('/Table.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: .75;
-} */
-
-/* .body-container::before{
-    position: absolute;
-    content: '';
-    background-image: url('/TableMedium.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: .75;
-} */
-
-/* .body-container::before{
-    position: absolute;
-    content: '';
-    background-image: url('/TableMobile2.jpg');
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: .75;
-} */
