@@ -1,7 +1,8 @@
 import './Biography.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaVimeo } from "react-icons/fa";
+// import { FaVimeo } from "react-icons/fa";
+import { FaFacebookSquare } from 'react-icons/fa';
 import Tamara from '/Tamara2.jpg'
 
 const Biography = () => {
@@ -28,14 +29,14 @@ const Biography = () => {
                     </section>
                     <section className='medium-icon-container flex justify-center md:justify-start gap-2 rounded-2xl'>
                         <button className='medium-icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
+                            window.open('https://www.instagram.com/tfinlayart/', '_blank')
                         }, 500)}><FaInstagramSquare className='medium-bio-icon' /></button>
                         <button className='medium-icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
+                            window.open('https://www.youtube.com/@tfinlayart', '_blank')
                         }, 500)}><FaYoutube className='medium-bio-icon' /></button>
                         <button className='medium-icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
-                        }, 500)}><FaVimeo className='medium-bio-icon' /></button>
+                            window.open('https://www.facebook.com/finlaytamara', '_blank')
+                        }, 500)}><FaFacebookSquare className='medium-bio-icon' /></button>
                     </section>
                 </article>
             </main >
@@ -57,14 +58,14 @@ const Biography = () => {
                     </section>
                     <section className='icon-container flex justify-start gap-2 rounded-2xl'>
                         <button className='icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
+                            window.open('https://www.instagram.com/tfinlayart/', '_blank')
                         }, 500)}><FaInstagramSquare className='bio-icon' /></button>
                         <button className='icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
+                            window.open('https://www.youtube.com/@tfinlayart', '_blank')
                         }, 500)}><FaYoutube className='bio-icon' /></button>
                         <button className='icon-btn' onClick={() => setTimeout(() => {
-                            window.open('https://www.google.com/', '_blank')
-                        }, 500)}><FaVimeo className='bio-icon' /></button>
+                            window.open('https://www.facebook.com/finlaytamara', '_blank')
+                        }, 500)}><FaFacebookSquare className='bio-icon' /></button>
                     </section>
 
                 </article>
