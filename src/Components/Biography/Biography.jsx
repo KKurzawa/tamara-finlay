@@ -1,7 +1,7 @@
 import './Biography.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-// import { FaVimeo } from "react-icons/fa";
+import { FaVimeo } from "react-icons/fa";
 import { FaFacebookSquare } from 'react-icons/fa';
 import Tamara from '/Tamara2.jpg'
 
@@ -11,7 +11,7 @@ const Biography = () => {
             <header id='Biography' className='bio-header-container flex justify-center relative w-full'>
                 <h2 className='bio-header justify-items-center relative w-fit p-2 lg:my-4 my-2 text-2xl lg:text-3xl '>Biography</h2>
             </header>
-            {/* medium */}
+            {/*small and medium */}
             <main id='Biography' className='medium-main-bio lg:hidden relative z-10 pt-6 px-4 md:pr-8 md:pl-8 lg:mb-10'>
                 <article className='medium-pic-container relative z-10 w-full'>
                     <section className='medium-profile-pic-container flex justify-center relative float-left w-[10rem] md:w-[15rem] h-[10rem] md:h-[15rem] md:mb-0 mb-2'>
@@ -34,6 +34,9 @@ const Biography = () => {
                         <button className='medium-icon-btn' onClick={() => setTimeout(() => {
                             window.open('https://www.youtube.com/@tfinlayart', '_blank')
                         }, 500)}><FaYoutube className='medium-bio-icon' /></button>
+                        <button className='medium-icon-btn' onClick={() => setTimeout(() => {
+                            window.open('https://vimeo.com/user33134240')
+                        }, 500)}><FaVimeo className='medium-bio-icon' /></button>
                         <button className='medium-icon-btn' onClick={() => setTimeout(() => {
                             window.open('https://www.facebook.com/finlaytamara', '_blank')
                         }, 500)}><FaFacebookSquare className='medium-bio-icon' /></button>
@@ -63,6 +66,9 @@ const Biography = () => {
                         <button className='icon-btn' onClick={() => setTimeout(() => {
                             window.open('https://www.youtube.com/@tfinlayart', '_blank')
                         }, 500)}><FaYoutube className='bio-icon' /></button>
+                        <button className='icon-btn' onClick={() => setTimeout(() => {
+                            window.open('https://vimeo.com/user33134240')
+                        }, 500)}><FaVimeo className='bio-icon' /></button>
                         <button className='icon-btn' onClick={() => setTimeout(() => {
                             window.open('https://www.facebook.com/finlaytamara', '_blank')
                         }, 500)}><FaFacebookSquare className='bio-icon' /></button>
