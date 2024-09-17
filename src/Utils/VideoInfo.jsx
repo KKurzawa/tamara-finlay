@@ -16,7 +16,7 @@ const videoInfo = [
     },
     {
         key: 4,
-        url: "https://www.youtube.com/embed/5gTWUHmE-cs?si=u6l6EgroRW5yJU9c",
+        url: "https://player.vimeo.com/video/383934719?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         title: 'Uncle Andrei'
     },
 ]

@@ -39,7 +39,7 @@ const Video = () => {
                                             style={{ translate: `${-100 * imageIndex}%` }}
                                             key={item.key}
                                             src={item.url}
-                                            allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                                            allow="autoplay; mozallowfullscreen; webkitallowfullscreen; fullscreen; picture-in-picture; clipboard-write"
                                             title={item.title}
                                         >
                                         </iframe>
