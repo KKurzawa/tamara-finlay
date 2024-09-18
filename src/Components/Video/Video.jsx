@@ -28,7 +28,7 @@ const Video = () => {
             </article>
             <div className='animations-main-container relative'>
                 <article className='animations-main flex flex-col items-center py-5 h-[19rem] md:h-[24.5rem]'>
-                    <main className='video-main relative md:px-[4.5rem] w-[90%] h-[14rem] md:w-[80%] md:h-[20rem] lg:w-[45%] max-w-7xl rounded-2xl'>
+                    <main className='video-main relative px-10 md:px-[4.5rem] w-[90%] h-[14rem] md:w-[80%] md:h-[20rem] lg:w-[45%] max-w-7xl rounded-2xl'>
                         <article className='outer-video-container w-full h-full relative rounded-2xl'>
                             <section
                                 className='inner-video-container flex relative w-full h-full overflow-hidden rounded-2xl' >
