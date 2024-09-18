@@ -36,7 +36,9 @@ const Video = () => {
                                     <>
                                         <iframe
                                             className='img-slider-img rounded-2xl'
-                                            style={{ translate: `${-100 * imageIndex}%` }}
+                                            // this is the problem
+                                            // style={{ translate: `${-100 * imageIndex}%` }}
+                                            style={imageIndex === item.key ? { display: 'block' } : { display: 'none' }}
                                             key={item.key}
                                             src={item.url}
                                             allow="autoplay; mozallowfullscreen; webkitallowfullscreen; fullscreen; picture-in-picture; clipboard-write"
