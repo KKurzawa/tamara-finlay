@@ -19,6 +19,11 @@ const videoInfo = [
         url: "https://player.vimeo.com/video/383934719?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
         title: 'Uncle Andrei'
     },
+    {
+        key: 4,
+        url: "https://player.vimeo.com/video/1059567559?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        title: "Baba Yaga's Beastiary Episode 1-LIKHO!"
+    },
 ]
 
 export default videoInfo
